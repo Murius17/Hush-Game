@@ -1,0 +1,120 @@
+body{
+    background-color: #000000;
+}
+
+header{
+    background-color: #423144;
+    height: 180px;
+    margin-top: 0%;
+
+}
+.cabeca{
+    background-color: #131111;
+    margin: auto;
+    text-align: center;
+}
+.sangue{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sanguegif{
+    width: 33.3%;
+
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: #f5eded;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 100px;
+    font-family: 'Permanent Marker', cursive;
+    margin-top: -16%;
+    animation-name: mudaCor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.faca {
+    margin-left: 25px;
+}
+
+
+main {
+    display: flex;
+    flex-flow: column;
+    place-items: center;
+    height: 82%;
+    border-color: #d72323;
+    border-style: solid;
+    margin: 5%;
+    padding: 3.3%;
+}
+
+.intro{
+    display: flex;
+    font-size: 35px;
+    display: center;
+    color: #f5eded;
+    padding: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.escolhas {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+
+}
+
+.botao2 {
+    display: none;
+}
+
+.botao1, .botao2 {
+    border-color: #d72323;
+    border-style: dotted;
+    background-color: #000000;
+    width: 200px;
+    color: #f5eded;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+footer{
+    background-color: #810000;
+    margin-top: auto;
+}
+.pe{
+    display: flex;
+    bottom:0;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+}
+#gameText{
+    color: aliceblue;
+    font-size: 35px;
+
+}
+.gameText{
+
+    padding: 50px;
+    margin-bottom: 8px;
+    
+}
+
+@keyframes mudaCor {
+    from {color: #f5eded}
+    to {color: #810000}
+    
+}
